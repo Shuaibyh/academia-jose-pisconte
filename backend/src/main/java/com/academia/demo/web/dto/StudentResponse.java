@@ -9,6 +9,12 @@ public record StudentResponse(
         String lastName,
         String email,
         String documentNumber,
+        String guardianName,
+        String guardianPhone,
+        String guardianRelationship,
+        String secondGuardianName,
+        String secondGuardianPhone,
+        String secondGuardianRelationship,
         OffsetDateTime createdAt
 ) {
 }

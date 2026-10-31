@@ -5,7 +5,7 @@ services:
     environment:
       POSTGRES_DB: academia_demo
       POSTGRES_USER: academia
-      POSTGRES_PASSWORD: academia
+      POSTGRES_PASSWORD: ${DB_PASSWORD:?Define DB_PASSWORD for local development}
     ports:
       - "5433:5432"
     volumes:

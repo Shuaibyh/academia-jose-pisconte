@@ -1,4 +1,6 @@
 .m2/
+.tools/
+.docx_render_qa/
 .idea/
 .vscode/
 target/
@@ -9,4 +11,10 @@ build/
 .env.*
 !.env.example
 *.log
+uploads/
+backend/uploads/
 .DS_Store
+
+# Local guides and generators may contain personal paths or demo credentials.
+GUIA_TUTORIAL_AULA_VIRTUAL_JOSE_PISCONTE.docx
+tools/
